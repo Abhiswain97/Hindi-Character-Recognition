@@ -42,6 +42,16 @@ def upload_and_classify(model, mapping):
             with st.spinner("Classifying....."):
                 classify(model=model, file=file, mapping=mapping)
 
+    else:
+        digit_url = "https://sample-characters.s3.us-east-2.amazonaws.com/1026.png"
+        vynajan_url = "https://sample-characters.s3.us-east-2.amazonaws.com/5414.png"
+        st.info(
+            f"""
+                -> Download a test [DIGIT/VYANJAN] image from here: [digit.png]({digit_url}) / [vyanjan.png]({vynajan_url}). \n 
+                -> Select the respective option on the left.
+                """
+        )
+
 
 mapping, model = None, None
 
