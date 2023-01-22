@@ -48,7 +48,7 @@ mapping, model = None, None
 if option == "Digit":
     if CFG.BEST_MODEL_DIGIT.exists():
         model = HNet(num_classes=10)
-        model.load_state_dict(torch.load(CFG.BEST_MODEL_DIGIT))
+        model.load_state_dict(torch.load(CFG.BEST_MODEL_DIGIT, map_location=CFG.DEVICE))
         with open(CFG.INDEX_DIGIT, "r") as f:
             mapping = json.load(f)
         upload_and_classify(model, mapping)
@@ -57,7 +57,9 @@ if option == "Digit":
 else:
     if CFG.BEST_MODEL_VYANJAN.exists():
         model = HNet(num_classes=36)
-        model.load_state_dict(torch.load(CFG.BEST_MODEL_VYANJAN))
+        model.load_state_dict(
+            torch.load(CFG.BEST_MODEL_VYANJAN, map_location=CFG.DEVICE)
+        )
         with open(CFG.INDEX_VYNAJAN, "r") as f:
             mapping = json.load(f)
         upload_and_classify(model, mapping)
