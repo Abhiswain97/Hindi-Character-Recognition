@@ -4,7 +4,7 @@
 
 ## Running the app locally:
 
-I also have a streamlit app you can run locally. 
+You can run the streamlit and gradio app locally. 
 
 1. Install the requirements: `pip install -r requirements.txt`
 
