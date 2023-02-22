@@ -1,8 +1,14 @@
 # Hindi-Character-Recognition
 
-Install the requirements: `pip install -r requirements.txt`
+### The app is live on huggingface spaces! Try it -> [Gradio-HCR](https://huggingface.co/spaces/abhiswain/Gradio-Hindi-Character-Recognition)
 
-1. Hindi Character Recognition
+## Running the app locally:
+
+I also have a streamlit app you can run locally. 
+
+1. Install the requirements: `pip install -r requirements.txt`
+
+2. Hindi Character Recognition
 
     ![App](https://user-images.githubusercontent.com/54038552/210263132-2e95ad65-5049-4a8c-b453-2616cbc4df20.gif)
 
