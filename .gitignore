@@ -6,3 +6,9 @@ data/
 .ipynb_checkpoints/
 
 src/__pycache__/
+
+flagged/
+
+__pycache__/
+
+.idea/
