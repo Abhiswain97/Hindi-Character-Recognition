@@ -8,9 +8,15 @@ I also have a streamlit app you can run locally.
 
 1. Install the requirements: `pip install -r requirements.txt`
 
-2. Hindi Character Recognition
+2. Now, just do `streamlit run app.py` or `gradio gradio_app.py`
 
-    ![App](https://user-images.githubusercontent.com/54038552/210263132-2e95ad65-5049-4a8c-b453-2616cbc4df20.gif)
+![App](https://user-images.githubusercontent.com/54038552/210263132-2e95ad65-5049-4a8c-b453-2616cbc4df20.gif)
+
+## Training the model (Optional)
+
+1. Install the requirements: `pip install -r requirements.txt`
+
+2. Hindi Character Recognition
 
     Getting the data:
     - Download the data from [here](https://www.kaggle.com/datasets/suvooo/hindi-character-recognition)
@@ -22,5 +28,3 @@ I also have a streamlit app you can run locally.
     - Now to train the model with default params do, `python train.py`. You can also specify epochs and lr. Most important, is the `model_type`
     - To train do, `python train.py --epochs <num-epochs> --lr <learning-rate> --model_type <type-of-model>`
     
-    Running the app:
-    - Just so, `streamlit run app.py`
