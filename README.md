@@ -10,7 +10,13 @@ You can run the streamlit and gradio app locally.
 
 2. Now, just do `streamlit run app.py` or `gradio gradio_app.py`
 
+### Streamlit demo
+
 ![App](https://user-images.githubusercontent.com/54038552/210263132-2e95ad65-5049-4a8c-b453-2616cbc4df20.gif)
+
+### Gradio demo
+
+![GradioApp](https://user-images.githubusercontent.com/54038552/220750032-5f7ba8dd-2f70-418c-9752-53bf25aaf8d1.gif)
 
 ## Training the model (Optional)
 
