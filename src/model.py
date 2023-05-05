@@ -4,7 +4,7 @@ import torch.nn.functional as F
 
 
 def calculate_conv_output(IH, IW, KH, KW, P, S):
-    return ((IH - KH + 2 * P) / S + 1, (IW - KW + 2 * P) / S + 1)
+    return (IH - KH + 2 * P) / S + 1, (IW - KW + 2 * P) / S + 1
 
 
 class HNet(nn.Module):

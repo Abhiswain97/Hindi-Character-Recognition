@@ -1,0 +1,16 @@
+test_path: !!python/object/apply:pathlib.WindowsPath
+- C:\
+- Users
+- abhi0
+- Desktop
+- Hindi-Character-Recognition
+- data
+- Test_digits
+train_path: !!python/object/apply:pathlib.WindowsPath
+- C:\
+- Users
+- abhi0
+- Desktop
+- Hindi-Character-Recognition
+- data
+- Train_digits
