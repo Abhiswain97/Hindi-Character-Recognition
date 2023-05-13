@@ -2,6 +2,11 @@
 
 ### The app is live on huggingface spaces! Try it -> [Gradio-HCR](https://huggingface.co/spaces/abhiswain/Gradio-Hindi-Character-Recognition)
 
+> I also created this project as to understand the difference [Pytorch Lightning](https://lightning.ai/docs/pytorch/stable/) makes v/s writing the code in pure Pytorch. You can see it for yourself: 
+> 1. Code in Pytorch Lightning -> [Lightning.py](https://github.com/Abhiswain97/Hindi-Character-Recognition/blob/master/Lightning.py)
+> 2. Code in pure Pytorch -> all the files under `src` folder
+
+
 ## Running the app locally:
 
 You can run the streamlit and gradio app locally. 
