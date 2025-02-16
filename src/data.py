@@ -1,7 +1,5 @@
-from torch.utils.data import DataLoader, random_split
-from torchvision.datasets import ImageFolder
-import torchvision.transforms as tfms
 import torch
+import torchvision.transforms as tfms
 
 # the train & test transforms
 transforms = {
